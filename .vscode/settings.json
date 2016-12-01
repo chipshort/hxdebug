@@ -1,0 +1,7 @@
+// Platzieren Sie Ihre Einstellungen in dieser Datei, um Standard- und Benutzereinstellungen zu überschreiben.
+{
+    "haxe.displayConfigurations": [ // one or more configurations for the haxe completion server 
+        ["build.hxml"], // hxml file is an normal haxe argument too
+        ["addon.hxml"]
+    ]
+}

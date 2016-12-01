@@ -1,0 +1,8 @@
+-cp unit
+
+-main tests.ClientMain
+
+--macro "debug.DebugMacro.initialize()"
+
+# -js bin/test/index.js
+-neko bin/client.n

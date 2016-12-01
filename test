@@ -1,0 +1,10 @@
+#!/bin/bash
+
+haxe test_client.hxml
+haxe test_server.hxml
+
+neko ./bin/server.n &
+sleep 1s
+neko ./bin/client.n
+
+rm -rf bin

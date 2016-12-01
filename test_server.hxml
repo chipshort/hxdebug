@@ -1,0 +1,6 @@
+-cp unit
+
+-main tests.ServerMain
+
+# -js bin/Main.js
+-neko bin/server.n
